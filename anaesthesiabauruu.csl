@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US" page-range-format="minimal">
-  <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>AnaesthesiaBauruU</title>
     <id>http://www.zotero.org/styles/anaesthesiabauruu</id>
@@ -81,7 +80,7 @@
       <text variable="citation-number"/>
     </layout>
   </citation>
-  <bibliography hanging-indent="false" et-al-min="7" et-al-use-first="3">
+  <bibliography hanging-indent="true" et-al-min="7" et-al-use-first="3">
     <layout>
       <text variable="citation-number" suffix=". "/>
       <text macro="author"/>
@@ -102,7 +101,7 @@
         <else-if type="chapter paper-conference" match="any">
           <group prefix=" " delimiter=". ">
             <group delimiter=": ">
-              <text macro text-case="sentence"/> 
+              <text text-case="sentence"/>
               <text macro="editor"/>
             </group>
             <text variable="container-title" font-style="italic" text-case="title"/>
