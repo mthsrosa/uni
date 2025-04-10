@@ -16,7 +16,7 @@
     <eissn>1365-2044</eissn>
     <updated>2025-04-10T20:13:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
-    <link href="http://www.zotero.org/styles/anaesthesia"/>
+    <link href="http://www.zotero.org/styles/anaesthesia" rel="template"/>
   </info>
   <locale>
     <terms>
@@ -102,7 +102,7 @@
         <else-if type="chapter paper-conference" match="any">
           <group prefix=" " delimiter=". ">
             <group delimiter=": ">
-              <text text-case="sentence"/>
+              <text value="Example" text-case="sentence"/>
               <text macro="editor"/>
             </group>
             <text variable="container-title" font-style="italic" text-case="title"/>
