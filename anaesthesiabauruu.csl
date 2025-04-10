@@ -101,7 +101,6 @@
         <else-if type="chapter paper-conference" match="any">
           <group prefix=" " delimiter=". ">
             <group delimiter=": ">
-              <text text-case="sentence"/>
               <text macro="editor"/>
             </group>
             <text variable="container-title" font-style="italic" text-case="title"/>
@@ -173,4 +172,3 @@
       </choose>
     </layout>
   </bibliography>
-</style>
